@@ -1,0 +1,374 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background: url(../img/beij1.jpg);
+	background-size: 100%;
+}
+
+
+
+.mask{
+	background: rgba(255,255,255,0.5);
+}
+
+.navbar-default{
+	background: rgba(255,255,255,0.0);
+	border: rgba(255,255,255,0.0);
+}
+
+
+.ii{
+	width: 100%;
+	height: 100px;
+	margin-top: 50px;
+	color: #575757;
+	text-align: center;
+	font-size: 70px;
+	font-family: 楷体;
+	/* text-shadow: 3px 5px 3px rgb(146, 109, 46); */
+}
+
+.wo{
+	height: 500px;
+}
+
+.I_information{
+	height: 500px;
+}
+
+.head_portrait{
+	height: 500px;
+}
+
+.img_1{
+	width: 400px;
+	height: 400px;
+	overflow: hidden;
+	border-radius: 400px;
+	margin: 0 auto;
+}
+
+.head_portrait img{
+	width: 400px;
+	height: 400px;
+	display: block;
+	margin: 0 auto;
+	border-radius: 400px;
+	
+}
+
+.head_portrait img:hover{
+	transform: scale(1.2);
+	transition: all 0.5s;
+}
+
+.name{
+	height: 70px;
+	font-size: 50px;
+	color: #575757;
+	font-family: 楷体;
+	/* text-shadow: 3px 5px 3px rgb(146,109,46); */
+	text-align: right;
+}
+
+
+.interest{
+	font-size: 35px;
+	color: #575757;
+	font-family: 楷体;
+	/* text-shadow: 3px 5px 3px rgb(146,109,46); */
+	text-align: right;
+}
+
+.contact_tp{
+	float: left;
+}
+
+.contact{
+	height: 40px;
+	margin-top: 30px;
+	text-align: center;
+}
+
+.contact_tp_k{
+	width: 35px;
+	height: 35px;
+	text-align: center;
+	border: solid #000000 0.09375rem;
+	margin: 0 auto;
+}
+
+.contact_tp_k a img{
+	width: 20px;
+	height: 20px;
+	margin-top: 6px;
+}
+
+
+
+.About_me{
+	height: 50px;
+	font-size: 35px;
+	text-align: center;
+	font-family: 楷体;
+	color: #575757;
+	/* text-shadow: 3px 5px 3px rgb(146,109,46); */
+}
+
+.ess_information{
+	height: 50px;
+	text-align: center;
+	font-size: 30px;
+	font-family: 楷体;
+	color: #575757;
+}
+
+.personal_information{
+	height: 350px;
+}
+
+.personal_information table{
+	margin: 0 auto;
+}
+
+
+.personal_information span{
+	font-size: 25px;
+	font-family: 楷体;
+	background: linear-gradient(90deg, #fccf00,#cf9a00);
+	-webkit-background-clip:text;
+	-webkit-text-fill-color: transparent;
+	text-transform: uppercase;
+}
+
+
+.tr_1>td{
+	width:150px;
+	text-align: center;
+	font-size: 35px;
+	color: #575757;
+	font-family: 楷体;
+	/* text-shadow: -1px 2px 1px rgb(146,109,46); */
+
+}
+
+.skill{
+	height: 35px;
+	margin-top: 20px;
+}
+
+.skillname{
+	text-align: center;
+	height: 50px;
+	line-height: 50px;
+}
+
+.skillname span{
+	font-size: 30px;
+}
+
+.skill_bar{
+	height: 30px;
+	border: solid 1px #51927c;
+	border-radius: 20px;
+	/* box-shadow: -2px -2px 4px rgb(146,109,46); */
+}
+
+.skill_bar_val{
+	width: 85%;
+	height: 30px;
+	background: #51927c;
+	border-radius: 20px;
+	text-align: center;
+	line-height: 30px;
+	color: #FFFFFF;
+}
+
+.skill_bar_val_1{
+	width: 60%;
+	height: 30px;
+	background: #51927c;
+	border-radius: 20px;
+	text-align: center;
+	line-height: 30px;
+	color: #FFFFFF;
+}
+
+.skill_bar_val_2{
+	width: 65%;
+	height: 30px;
+	background: #51927c;
+	border-radius: 20px;
+	text-align: center;
+	line-height: 30px;
+	color: #FFFFFF;
+}
+
+.skill_bar_val_3{
+	width: 70%;
+	height: 30px;
+	background: #51927c;
+	border-radius: 20px;
+	text-align: center;
+	line-height: 30px;
+	color: #FFFFFF;
+}
+
+.skill_bar_val_4{
+	width: 80%;
+	height: 30px;
+	background: #51927c;
+	border-radius: 20px;
+	text-align: center;
+	line-height: 30px;
+	color: #FFFFFF;
+}
+
+.project{
+	font-size: 35px;
+	color: #575757;
+	font-family: 楷体;
+	text-align: center;
+	/* text-shadow: 3px 5px 3px rgb(146,109,46); */
+}
+
+
+a{
+	text-decoration: none;
+}
+
+.xm_top{
+	margin-top: 20px;
+}
+
+
+.project_name{
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	font-size: 20px;
+	font-family: 楷体;
+	color: #575757;
+}
+
+.project_tpk{
+	margin: 0 auto;
+	text-align: center;
+}
+
+.project_tpk span{
+	display: none;
+	text-align: center;
+	height: 177px;
+	line-height: 177px;
+}
+
+.xm_imgpc{
+	width: 320px;
+	height: 177px;
+}
+
+.xm_imgphone{
+	width: 130px;
+	height: 250px;
+}
+
+.xm_top a{
+	text-decoration: none;
+}
+
+
+.contact_mode{
+	margin-top: 40px;
+	font-size: 30px;
+	text-align: center;
+	color: #575757;
+}
+
+.contact_mode_phone{
+	height: 200px;
+	text-align: center;
+}
+
+.phone_k{
+	width: 80px;
+	height: 80px;
+	border: solid #575757 2px;
+	border-radius: 40px;
+	text-align: center;
+	line-height: 75px;
+	margin: 0 auto;
+}
+
+.contact_mode_phone span{
+	display: block;
+	font-size: 20px;
+	margin-top: 30px;
+}
+
+.con_top{
+	margin-top: 20px;
+}
+
+.project_top{
+	margin-top: 20px;
+}
+
+@media (max-width:568px) {
+	.tr_1>td{
+		font-size: 32px;
+	}
+}
+
+@media (max-width:525px) {
+	.tr_1>td{
+		font-size: 30px;
+	}
+}
+
+@media (max-width:505px) {
+	.tr_1>td{
+		font-size: 30px;
+	}
+}
+
+@media (max-width:499px) {
+	.img_1 img{
+		width: 200px;
+		height: 200px;
+	}
+	
+	.tr_1>td{
+		font-size: 20px;
+	}
+	
+	.ess_information{
+		font-size: 20px;
+	}
+	
+	.I_information{
+		height: 310px;
+	}
+	
+	.img_1{
+		width: 200px;
+		height: 200px;
+	}
+	
+	.head_portrait{
+		height: 250px;
+	}
+	
+	.personal_information1{
+		height: 170px;
+	}
+	
+	.xm_imgpc{
+		width: 285px;
+		height: 142px;
+	}
+}
+
